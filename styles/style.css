@@ -1,0 +1,104 @@
+.body {
+    color: red;
+    background-color: bisque;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0;
+}
+
+.header, .footer {
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(28, 218, 173);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header h3 {
+    margin: 0px;
+    font-weight: bold;
+}
+
+.footer {
+    padding: 0px;
+}
+
+.container-fluid {
+    margin: 0px;
+}
+
+.details_section {
+    padding: 3% 3%;
+    /* background-color: rgb(247, 214, 214); */
+    box-shadow: 0;
+    max-height: 450px
+}
+
+.btn:focus, .form-control:focus {
+    outline: none;
+}
+
+.details_section form input {
+    border: 1.5px solid gray;
+}
+
+.card_section {
+    /* background-color: rgb(248, 189, 168); */
+    text-align: center;
+    padding: 10px 20px;
+}
+
+/* CSS for card section... */
+#table_box {
+    max-height: 400px;
+    width: auto;
+    padding: 1px;
+    overflow-y: scroll;
+}
+th, tr, td {
+    border: 2px solid rgb(114, 165, 11);
+}
+th {
+    color: white;
+}
+
+#student_name, #student_gender, #student_email, #student_weblink, #student_skills {
+    padding: 0px;
+    text-align: left;
+}
+td {
+    padding-top: 0px;
+}
+#student_name {
+    text-transform: capitalize;
+}
+td img{
+    padding: 0px;
+    width: 8rem;
+    height: 8rem
+}
+table tr:nth-child(odd) {
+    background-color: rgb(225, 247, 183);
+}
+
+@media(min-width: 769px) {
+    .details_section {
+        border-right: 4px solid rgb(28, 218, 173);
+    }
+}
+
+@media(max-width: 767px) {
+    #user_form {
+        border-radius: 5px;;
+        border: 2px double rgb(201, 199, 199);
+        padding: 4% 4% 0;
+        margin: 0% auto;
+        width: 95%;
+    }
+    .card_section {
+        margin-top: 35%;
+    }
+}
